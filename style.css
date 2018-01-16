@@ -63,6 +63,10 @@
 	filter: grayscale(100%);
 }
 
+#map {
+	height: 300px;
+}
+
 #end {
 	margin-bottom: 0;
 	color: #000000;
