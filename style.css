@@ -1,282 +1,247 @@
-#nav-fix{
-	text-transform:uppercase;
-	border-bottom:1px solid rgba(255,255,255,.3);
- 	background-color:#fff;
+#nav-fix {
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
+  background-color: #fff;
 }
 
-#heading1,#heading2,#heading3 {
-	font-size: 55px;
-	font-family: verdana, arial;
-	text-align: center;
-	text-decoration: underline overline #000000;
-	margin-top: 20px;
-	margin-bottom: 0px;
-	color: #000000;
-	text-shadow: .7px .7px #454545;
+#heading1, #heading2, #heading3 {
+  font-size: 55px;
+  font-family: verdana, arial;
+  text-align: center;
+  text-decoration: underline overline #000000;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  color: #000000;
+  text-shadow: .7px .7px #454545;
 }
 
 .content {
-	font-family: verdana;
+  font-family: verdana;
 }
 
 .img-circle {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
-.masthead{
- display:table;
- width:100%;
- height:auto;
- padding:200px 0;
- text-align:center;
- color:#fff;
- background:url(blue.jpg) no-repeat bottom center scroll;
- background-color:#000;
- -webkit-background-size:cover;
- -moz-background-size:cover;
- -o-background-size:cover;
- background-size:cover;
- border-top: 2px solid #000;
- border-bottom: 2px solid #000;
+.masthead {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 200px 0;
+  text-align: center;
+  color: #fff;
+  background: url(blue.jpg) no-repeat bottom center scroll;
+  background-color: #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
 }
 
-.masthead .intro-body{
- display:table-cell;
- vertical-align:middle;
+.masthead .intro-body {
+  display: table-cell;
+  vertical-align: middle;
 }
 
-.masthead .intro-body .brand-heading{
- font-size:4vmax;
+.masthead .intro-body .brand-heading {
+  font-size: 4vmax;
 }
 
-.masthead .intro-body .intro-text{
- font-size:2.3vmax;
+.masthead .intro-body .intro-text {
+  font-size: 2.3vmax;
 }
 
-.card-deck {
-	padding-top: 4%;
+#project-grid img {
+  width: 100%;
+  height: 100%;
+  padding: 4%;
 }
 
-.card {
-	width: 100%;
-	height: 50%;
-	filter: grayscale(100%);
+#contact-form input, #contact-form textarea {
+  z-index: 1;
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  border: 0;
+  border-radius: 0;
+  font-size: 1em;
+  background: 0 0;
+  -webkit box shadow: none !important;
+  box-shadow: none !important;
+  resize: none;
+  width: 100%;
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+  outline: 0;
 }
 
 #map {
-	height: 300px;
+  height: 300px;
 }
 
 #end {
-	margin-bottom: 0;
-	color: #000000;
-	background-color: #ffffff;
+  margin-bottom: 0;
+  color: rgb(93, 93, 96);
+  background-color: #ffffff;
 }
 
 li {
-    display: inline;
+  display: inline;
 }
 
-a{
- -webkit-transition:all .2s ease-in-out;
- -moz-transition:all .2s ease-in-out;
- transition:all .2s ease-in-out;
- color:#000033
+a {
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  color: #000033;
 }
 
-a:focus,a:hover{
- text-decoration:none;
- color:#000033
+a:focus, a:hover {
+  text-decoration: none;
+  color: #000033;
+  border-radius: 50%;
 }
 
-.btn{
-	font-family:Cabin,'Helvetica Neue',Helvetica,Arial,sans-serif;
-	font-weight:400;
-	-webkit-transition:all .3s ease-in-out;
-	-moz-transition:all .3s ease-in-out;
-	transition:all .3s ease-in-out;
-	text-transform:uppercase;
-	border-radius:2px;
+.social {
+  font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400 !important;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  border: 2px solid #000033 !important;
+  color: #fff;
+  border: solid 2px #fff;
+  border-radius: 50% !important;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 48px;
 }
 
-.btn-default{
-	color:#000033;
-	border:1px solid #000033;
-	background-color:white;
+.btn-default {
+  color: #000033;
+  border: 2px solid #000033;
+  background-color: white;
+  border-radius: 50% !important;
 }
 
-.btn-default:focus,.btn-default:hover{
-	color:#fff;
-	border:1px solid #000033;
-	outline:0;
-	background-color:#000033
+.btn-default:focus, .btn-default:hover {
+  color: #fff;
+  border: 1px solid #000033;
+  outline: 0;
+  background-color: #000033;
+  border-radius: 50% !important;
 }
 
-ul.banner-social-buttons{
-	margin-top:0
+ul.banner-social-buttons {
+  margin-top: 0;
+  border-radius: 50% !important;
 }
 
-#work,#about,#contact {
-	padding-top: 7%;
-	padding-bottom: 7%;
+#work, #about, #contact {
+  padding-top: 7%;
+  padding-bottom: 7%;
 }
 
-#about{
-	background-color: #eeeeee;
+#about {
+  background-color: #eeeeee;
 }
 
 /* all the media queries */
 
 @media screen and (max-width: 412px) {
-
-		#heading1,#heading2,#heading3 {
-			font-size: 6vmax;
-		}
-
-	.content {
-		font-size: 2.2vmax;
-	}
-
-		.starf {
-			font-size: 100%;
-		}
-
-		.star {
-			font-size: 200%;
-		}
-
-		.card {
-			width: 100%;
-			height: 50%;
-			overflow: hidden;
-		}
-
-		.card-img-top {
-			position: relative;
-			float: left;
-			width: 100%;
-			height: 50%;
-		}
-
-		.card img {
-			height:auto;
-			width: 100%;
-		}
-
-		#circleImage {
-			width:20vmax;
-			height:20vmax;
-		}
+  #heading1, #heading2, #heading3 {
+    font-size: 6vmax;
+  }
+  .content {
+    font-size: 2.2vmax;
+  }
+  .starf {
+    font-size: 100%;
+  }
+  .star {
+    font-size: 200%;
+  }
+  #circleImage {
+    width: 20vmax;
+    height: 20vmax;
+  }
 }
 
 @media screen and (min-width: 413px) {
-
-	#heading1,#heading2,#heading3 {
-		font-size: 5.5vmax;
-	}
-
-	.content {
-		font-size: 2.2vmax;
-	}
-
-		.starf {
-			font-size: 150%;
-		}
-
-		.star {
-			font-size: 400%;
-		}
-
-		.card {
-			width: 100%;
-			height: 50%;
-		}
-
-		.card-img-top {
-			width: 100%;
-			height: 50%;
-		}
-
-		#circleImage {
-			width:24vmax;
-			height:24vmax;
-		}
+  #heading1, #heading2, #heading3 {
+    font-size: 5.5vmax;
+  }
+  .content {
+    font-size: 2.2vmax;
+  }
+  .starf {
+    font-size: 150%;
+  }
+  .star {
+    font-size: 400%;
+  }
+  #circleImage {
+    width: 24vmax;
+    height: 24vmax;
+  }
 }
 
 @media screen and (min-width: 576px) {
-
-	#heading1,#heading2,#heading3 {
-		font-size: 5vmax;
-	}
-
-	.card {
-			width: 100%;
-			height: 50%;
-	}
-
-	.card-img-top {
-		width: 100%;
-		height: 50%;
-	}
-
-	#circleImage {
-		width:20vmax;
-		height:20vmax;
-	}
+  #heading1, #heading2, #heading3 {
+    font-size: 5vmax;
+  }
+  #circleImage {
+    width: 20vmax;
+    height: 20vmax;
+  }
 }
 
 @media screen and (min-width: 768px) {
-
-	.content {
-		font-size: 1.7vmax;
-	}
-
-	#contact {
-		font-size: 1.4vmax;
-	}
-
-	.masthead .intro-body .brand-heading{
-	 font-size:3vmax;
-	}
-
-	.masthead .intro-body .intro-text{
-	 font-size:1.5vmax;
-	}
-
-	#heading1,#heading2,#heading3 {
-		font-size: 3.5vmax;
-	}
-
-	#circleImage {
-		width:16vmax;
-		height:16vmax;
-	}
+  .content {
+    font-size: 1.7vmax;
+  }
+  #contact {
+    font-size: 1.4vmax;
+  }
+  .masthead .intro-body .brand-heading {
+    font-size: 3vmax;
+  }
+  .masthead .intro-body .intro-text {
+    font-size: 1.5vmax;
+  }
+  #heading1, #heading2, #heading3 {
+    font-size: 3.5vmax;
+  }
+  #circleImage {
+    width: 16vmax;
+    height: 16vmax;
+  }
 }
 
 @media screen and (min-width: 992px) {
-
-	.content {
-		font-size: 1.33vmax;
-	}
-
-	#contact {
-		font-size: 1.3vmax;
-	}
-
-	.masthead .intro-body .brand-heading{
-	 font-size:2.7vmax;
-	}
-
-	.masthead .intro-body .intro-text{
-	 font-size:1.3vmax;
-	}
-
-	#heading1,#heading2,#heading3 {
-		font-size: 3.3vmax;
-	}
-
-	#circleImage {
-		width:14vmax;
-		height:14vmax;
-	}
+  .content {
+    font-size: 1.33vmax;
+  }
+  #contact {
+    font-size: 1.3vmax;
+  }
+  .masthead .intro-body .brand-heading {
+    font-size: 2.7vmax;
+  }
+  .masthead .intro-body .intro-text {
+    font-size: 1.3vmax;
+  }
+  #heading1, #heading2, #heading3 {
+    font-size: 3.3vmax;
+  }
+  #circleImage {
+    width: 14vmax;
+    height: 14vmax;
+  }
 }
