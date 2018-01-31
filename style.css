@@ -30,8 +30,8 @@
   padding: 200px 0;
   text-align: center;
   color: #fff;
-  background: url(blue.jpg) no-repeat bottom center scroll;
-  background-color: #000;
+  background: #000;
+  background: linear-gradient(#1004ff , black);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
