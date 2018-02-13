@@ -4,6 +4,16 @@
   background-color: #fff;
 }
 
+#Logo{
+  font-family: 'Kelly Slab', cursive;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.nav-link{
+  font-size: 1.4em;
+}
+
 #heading1, #heading2, #heading3 {
   font-size: 55px;
   font-family: verdana, arial;
