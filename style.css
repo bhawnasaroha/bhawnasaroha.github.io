@@ -11,7 +11,7 @@
 }
 
 .nav-link{
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 
 #heading1, #heading2, #heading3 {
@@ -26,7 +26,7 @@
 }
 
 .content {
-  font-family: verdana;
+  font-family: inherit;
 }
 
 .img-circle {
@@ -165,6 +165,10 @@ ul.banner-social-buttons {
 /* all the media queries */
 
 @media screen and (max-width: 412px) {
+  #Logo{
+    font-size: 1.5em;
+  }
+
   #heading1, #heading2, #heading3 {
     font-size: 6vmax;
   }
