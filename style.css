@@ -1,7 +1,5 @@
 #nav-fix {
   text-transform: uppercase;
-  /* border-bottom: 1px solid rgba(255, 255, 255, .3); */
-  /* background-color: rgba(255, 255, 255, 0.93); */
 }
 
 #Logo{
@@ -137,7 +135,6 @@ a:focus, a:hover {
 }
 
 .social {
-  /* font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   font-weight: 400 !important;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
@@ -240,6 +237,10 @@ ul.banner-social-buttons {
 @media screen and (min-width: 768px) {
   .content {
     font-size: 1.7vmax;
+  }  
+  .about-content{
+    margin-right: 12%;
+    margin-left: 12%;
   }
   #contact {
     font-size: 1.4vmax;
