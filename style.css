@@ -1,13 +1,28 @@
 #nav-fix {
   text-transform: uppercase;
-  border-bottom: 1px solid rgba(255, 255, 255, .3);
-  background-color: rgba(255, 255, 255, 0.93);
+  /* border-bottom: 1px solid rgba(255, 255, 255, .3); */
+  /* background-color: rgba(255, 255, 255, 0.93); */
 }
 
 #Logo{
   font-family: 'Kelly Slab', cursive;
   font-weight: bold;
   font-size: 2em;
+  color: white;
+}
+
+.secondary{
+  background-color: black;
+  opacity: 0.9;
+  transition: all 0.5s ease-in;
+  -webkit-box-shadow: 0px 0px 24px #000000;
+  -moz-box-shadow: 0px 0px 24px #000000;
+  box-shadow: 0px 0px 24px #000000;
+}
+
+.nav-link{
+  color: white !important;
+  
 }
 
 .nav-link{
