@@ -88,6 +88,15 @@
   padding: 4%;
 }
 
+#project-grid a{
+  transition: all 0.5s ease-in;
+}
+
+#project-grid a:hover{
+  opacity: 0.8;
+  transition: 0.5 ease-in;
+}
+
 #contact-form input, #contact-form textarea {
   z-index: 1;
   position: relative;
@@ -237,7 +246,7 @@ ul.banner-social-buttons {
 @media screen and (min-width: 768px) {
   .content {
     font-size: 1.7vmax;
-  }  
+  }
   .about-content{
     margin-right: 12%;
     margin-left: 12%;
