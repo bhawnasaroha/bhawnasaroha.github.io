@@ -2,7 +2,7 @@
   text-transform: uppercase;
 }
 
-#Logo{
+#Logo {
   font-family: 'Kelly Slab', cursive;
   font-weight: bold;
   font-size: 2em;
@@ -10,7 +10,7 @@
   text-decoration: overline underline;
 }
 
-.secondary{
+.secondary {
   background-color: black;
   opacity: 0.9;
   transition: all 0.5s ease-in;
@@ -19,16 +19,22 @@
   box-shadow: 0px 0px 24px #000000;
 }
 
-.nav-link{
+.nav-link {
   color: white !important;
   font-family: Ubuntu, sans-serif;
+  font-size: 1.4em !important;
 }
 
-.nav-link{
-  font-size: 1.3em;
+.nav-link.active {
+  border: 1px solid white;
+  transition: all 0.5s ease-in;
 }
 
-#toggle-button{
+.btn.focus, .btn:focus {
+  box-shadow: none !important;
+}
+
+#toggle-button {
   color: white !important;
 }
 
@@ -59,7 +65,7 @@
   text-align: center;
   color: #fff;
   background: #000;
-  background: linear-gradient(#111a51 , black);
+  background: linear-gradient(#111a51, black);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -88,20 +94,20 @@
   padding: 4%;
 }
 
-#project-grid a{
+#project-grid a {
   transition: all 0.5s ease-in;
 }
 
-#project-grid a:hover{
+#project-grid a:hover {
   opacity: 0.8;
   transition: 0.5 ease-in;
 }
 
-.btn{
+.btn {
   border-radius: 4px !important;
 }
 
-#contact-button{
+#contact-button {
   color: #000033;
   font-family: Ubuntu, sans-serif;
   border: 2px solid #000033;
@@ -111,13 +117,13 @@
   transition: 0.5s ease-in;
 }
 
-#contact-button:hover{
+#contact-button:hover {
   color: white;
   background-color: #000033;
   border-radius: 4px;
 }
 
-#contact-button:active{
+#contact-button:active {
   color: white;
   background-color: #000033;
   border-radius: 4px;
@@ -201,10 +207,9 @@ ul.banner-social-buttons {
 /* all the media queries */
 
 @media screen and (max-width: 412px) {
-  #Logo{
+  #Logo {
     font-size: 1.5em;
   }
-
   #heading1, #heading2, #heading3 {
     font-size: 6vmax;
   }
@@ -256,7 +261,7 @@ ul.banner-social-buttons {
   .content {
     font-size: 1.7vmax;
   }
-  .about-content{
+  .about-content {
     margin-right: 12%;
     margin-left: 12%;
   }
