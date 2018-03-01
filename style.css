@@ -97,23 +97,30 @@
   transition: 0.5 ease-in;
 }
 
-#contact-form input, #contact-form textarea {
-  z-index: 1;
-  position: relative;
-  padding-left: 0;
-  padding-right: 0;
-  border: 0;
-  border-radius: 0;
-  font-size: 1em;
-  background: 0 0;
-  -webkit box shadow: none !important;
-  box-shadow: none !important;
-  resize: none;
-  width: 100%;
+.btn{
+  border-radius: 4px !important;
 }
 
-#contact-form input:focus, #contact-form textarea:focus {
-  outline: 0;
+#contact-button{
+  color: #000033;
+  font-family: Ubuntu, sans-serif;
+  border: 2px solid #000033;
+  font-weight: bold;
+  padding: 0.5vmax 1vmax;
+  text-transform: uppercase;
+  transition: 0.5s ease-in;
+}
+
+#contact-button:hover{
+  color: white;
+  background-color: #000033;
+  border-radius: 4px;
+}
+
+#contact-button:active{
+  color: white;
+  background-color: #000033;
+  border-radius: 4px;
 }
 
 #map {
@@ -145,9 +152,9 @@ a:focus, a:hover {
 
 .social {
   font-weight: 400 !important;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  transition: all .3s ease-in;
   border: 2px solid #000033 !important;
   color: #fff;
   border: solid 2px #fff;
@@ -165,6 +172,7 @@ a:focus, a:hover {
   border: 2px solid #000033;
   background-color: white;
   border-radius: 50% !important;
+  transition: all 0.5s ease-in;
 }
 
 .btn-default:focus, .btn-default:hover {
@@ -173,6 +181,7 @@ a:focus, a:hover {
   outline: 0;
   background-color: #000033;
   border-radius: 50% !important;
+  transition: all 0.5s ease-in;
 }
 
 ul.banner-social-buttons {
