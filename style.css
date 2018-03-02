@@ -61,7 +61,7 @@
   display: table;
   width: 100%;
   height: auto;
-  padding: 200px 0;
+  padding: 20vmax 0 27vmax 0;
   text-align: center;
   color: #fff;
   background: #000;
@@ -73,6 +73,11 @@
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
   box-shadow: 0 6px 0 #84d56a, 0 12px 0 #ade39c, 0 18px 0 #d6f1cd;
+}
+
+.vl {
+    border-left: 6px solid white;
+    height: 18vmax;
 }
 
 .masthead .intro-body {
@@ -205,7 +210,9 @@ ul.banner-social-buttons {
   background-color: #eeeeee;
 }
 
+/* ********************* */
 /* all the media queries */
+/* ********************* */
 
 @media screen and (max-width: 412px) {
   #Logo {
@@ -224,8 +231,11 @@ ul.banner-social-buttons {
     font-size: 200%;
   }
   #circleImage {
-    width: 20vmax;
-    height: 20vmax;
+    width: 22vmax;
+    height: 22vmax;
+  }
+  .vl{
+    display: none;
   }
 }
 
@@ -271,16 +281,18 @@ ul.banner-social-buttons {
   }
   .masthead .intro-body .brand-heading {
     font-size: 3vmax;
+    text-align: left;
   }
   .masthead .intro-body .intro-text {
     font-size: 1.5vmax;
+    text-align: left;
   }
   #heading1, #heading2, #heading3 {
     font-size: 3.5vmax;
   }
   #circleImage {
-    width: 16vmax;
-    height: 16vmax;
+    width: 17vmax;
+    height: 17vmax;
   }
 }
 
@@ -293,15 +305,23 @@ ul.banner-social-buttons {
   }
   .masthead .intro-body .brand-heading {
     font-size: 2.7vmax;
+    text-align: left;
   }
   .masthead .intro-body .intro-text {
     font-size: 1.3vmax;
+    text-align: left;
   }
   #heading1, #heading2, #heading3 {
     font-size: 3.3vmax;
   }
   #circleImage {
-    width: 14vmax;
-    height: 14vmax;
+    width: 18vmax;
+    height: 18vmax;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .vl{
+    display: none;
   }
 }
