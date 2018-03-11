@@ -1,5 +1,9 @@
 #nav-fix {
   text-transform: uppercase;
+  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
 }
 
 #Logo {
@@ -13,7 +17,10 @@
 .secondary {
   background-color: black;
   opacity: 0.9;
-  transition: all 0.5s ease-in;
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
   -webkit-box-shadow: 0px 0px 24px #000000;
   -moz-box-shadow: 0px 0px 24px #000000;
   box-shadow: 0px 0px 24px #000000;
@@ -61,7 +68,7 @@
   display: table;
   width: 100%;
   height: auto;
-  padding: 20vmax 0 27vmax 0;
+  padding: 27vmax 0 10vmax 0;
   text-align: center;
   color: #fff;
   background: #000;
@@ -73,6 +80,8 @@
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
   box-shadow: 0 6px 0 #84d56a, 0 12px 0 #ade39c, 0 18px 0 #d6f1cd;
+  transform-origin: bottom left;
+  transform: skew(0, -7deg);
 }
 
 .vl {
@@ -84,6 +93,8 @@
   display: table-cell;
   vertical-align: middle;
   font-family: Ubuntu;
+  transform-origin: bottom right;
+  transform: skew(0, 7deg);
 }
 
 .masthead .intro-body .brand-heading {
